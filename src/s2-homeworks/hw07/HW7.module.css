@@ -1,2 +1,9 @@
 .container {
+display: flex;
+
+    justify-content: inherit;
+    margin-left: 20px;
+    margin-top: 22px;
+    gap: 100px;
+
 }
