@@ -48,7 +48,7 @@ const HW12 = () => {
                     id={'hw12-select-theme'}
                     className={s.select}
                     options={themes}
-                    onChangeOption={(id: number) => change(id)}
+                    onChangeOption={(themeId: number) => change(themeId)}
 
                 />
             </div>
