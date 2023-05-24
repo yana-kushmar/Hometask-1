@@ -10,6 +10,7 @@ type actionType = {
 }
 const initState = {
     themeId: 1,
+    value: 'Light'
 }
 
 
