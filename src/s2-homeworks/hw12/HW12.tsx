@@ -31,7 +31,7 @@ const HW12 = () => {
 
 
     useEffect(() => {
-        document.documentElement.dataset.theme = +themeId + ''
+        document.documentElement.dataset.theme = themeId + ''
     }, [themeId])
 
 
@@ -47,7 +47,7 @@ const HW12 = () => {
                     id={'hw12-select-theme'}
                     className={s.select}
                     options={themes}
-                    onChangeOption={(option: number) => change(option)}
+                    onChangeOption={change}
 
                 />
             </div>
