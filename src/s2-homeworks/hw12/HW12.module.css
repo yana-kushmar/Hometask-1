@@ -19,11 +19,14 @@ html {
 }
 
 .select {
-    border: 1px solid #323232;
-    border-radius: 2px;
     width: 200px;
     height: 32px;
+    background-color: var(--background);
     margin: 20px 20px;
+    border-radius: 2px;
+    border: 1px solid #C2C2C2;
+
 }
+
 
 
