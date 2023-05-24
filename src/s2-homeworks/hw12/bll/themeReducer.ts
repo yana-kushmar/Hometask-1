@@ -10,7 +10,6 @@ type actionType = {
 }
 const initState = {
     themeId: 1,
-
 }
 
 

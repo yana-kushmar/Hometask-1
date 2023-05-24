@@ -12,12 +12,9 @@ import {AppStoreType} from "../hw10/bll/store";
 * 3 - дописать тип и логику функции change
 * 4 - передать пропсы в SuperSelect
 * */
-type themesType = {
-    id: number,
-    value: string
-}
 
-const themes: themesType[] = [
+
+const themes: {id: number, value: string}[] = [
     {id: 1, value: 'light'},
     {id: 2, value: 'blue'},
     {id: 3, value: 'dark'},
