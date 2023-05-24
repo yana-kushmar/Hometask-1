@@ -25,8 +25,8 @@ const HW12 = () => {
     const themeId = useSelector<AppStoreType, number>(store => store.theme.themeId)
 
 
-    const change = (id: number) => {
-        dispatch(changeThemeId(id))
+    const change = (themeId: number) => {
+        dispatch(changeThemeId(themeId))
 
     }
 
