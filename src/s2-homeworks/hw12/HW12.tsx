@@ -20,13 +20,12 @@ const themes = [
 ]
 
 const HW12 = () => {
-
-    const dispatch = useDispatch()
     const themeId = useSelector<AppStoreType, number>(store => store.theme.themeId)
+    const dispatch = useDispatch()
 
 
-    const change = (themeId: number) => {
-        dispatch(changeThemeId(themeId))
+    const change = (id: number) => {
+        dispatch(changeThemeId(id))
 
     }
 
@@ -48,7 +47,7 @@ const HW12 = () => {
                     id={'hw12-select-theme'}
                     className={s.select}
                     options={themes}
-                    onChangeOption={(themeId: number) => change(themeId)}
+                    onChangeOption={change}
 
                 />
             </div>
